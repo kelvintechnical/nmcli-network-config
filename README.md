@@ -1,11 +1,11 @@
 # Lab: Command-Line Network Config with `nmcli`
 
-**Series:** linux-ops-mastery — RHCSA Networking
-**Subjects covered:** NetworkManager mental model, `nmcli` general/device/connection views, reading and modifying connection profiles, IPv4 method (`auto` vs `manual`), DNS fields on a profile, `nmcli con reload`, bringing connections up/down, `nmcli dev reapply`, verifying with `ip` and `ping`
-**Career arcs covered:** RHCSA (NetworkManager is the default stack on EX200-style RHEL 9), RHCE (Ansible `community.general.nmcli` mirrors the same object model), SRE (safe interface changes without editing files by hand), DevOps (immutable images still need runtime NIC tuning), AI/MLOps (GPU nodes often need static management IPs and DNS before pulling containers)
-**Prerequisite:** Comfort with `ip addr`, basic TCP/IP (address, prefix, gateway), and root or `sudo` on a RHEL 9 VM
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 read-only inventory · 2–3 inspect and modify a connection profile · 4 apply changes safely · 5 scripting and non-interactive edits · 6 RHCSA-realistic capstone plus teardown
+- **Series:** linux-ops-mastery — RHCSA Networking
+- **Subjects covered:** NetworkManager mental model, `nmcli` general/device/connection views, reading and modifying connection profiles, IPv4 method (`auto` vs `manual`), DNS fields on a profile, `nmcli con reload`, bringing connections up/down, `nmcli dev reapply`, verifying with `ip` and `ping`
+- **Career arcs covered:** RHCSA (NetworkManager is the default stack on EX200-style RHEL 9), RHCE (Ansible `community.general.nmcli` mirrors the same object model), SRE (safe interface changes without editing files by hand), DevOps (immutable images still need runtime NIC tuning), AI/MLOps (GPU nodes often need static management IPs and DNS before pulling containers)
+- **Prerequisite:** Comfort with `ip addr`, basic TCP/IP (address, prefix, gateway), and root or `sudo` on a RHEL 9 VM
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 read-only inventory · 2–3 inspect and modify a connection profile · 4 apply changes safely · 5 scripting and non-interactive edits · 6 RHCSA-realistic capstone plus teardown
 
 ---
 
